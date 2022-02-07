@@ -1,0 +1,91 @@
+<doctype>
+    <html>
+    <head>
+    <style>
+        body{
+            background-image:url('companybg.jpg');
+            background-repeat:no-repeat;
+            background-position:left-bottom;
+            background-size:100% 100%;
+        }
+        ul{
+            list-style-type:none;
+            margin:0;
+            padding:0;
+            overflow:hidden;
+            background-color:#5bb2ce;
+            text-align:center;
+        }
+        li{
+            float:left;
+            font-size:20px;
+        }
+        li a{
+            display:block;
+            color:white;
+            text-align:center;
+            padding:10px 30px;
+            text-decoration:none;
+        }
+        li a:hover{
+            background-color:white;
+            color:#5bb2ce;
+        }
+        li img{
+            margin-left:1060;
+        }
+        h2{
+            color:white;
+        }
+        .footer{
+            position:fixed;
+            left:0;
+            bottom:0;
+            width:100%;
+            background-color:#6bbe30;
+            color:white;
+            text-align:center;
+        }
+    </style>
+    </head>
+    <body>
+        <ul>
+            <li><a href="gamingden.html">Home</a></li>
+            <li><a href="events.html">About us</a></li>
+            <li><a href="contactden.html">Contact</a></li>
+            <li><img src="wiprologo.jpg" align="center" height="40px" width="80px"></li>
+        </ul>
+        <h2 >providing you business solutions</h2>
+        <p><b>This wipro is a business platform where thousands of<br> workers
+            work to bring growth in the company</b></p>
+        <h2>Register here</h2>
+        <form>
+            <label for="name">First name</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="name">Last name</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="name">Select your gender</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="pwd" minlength="8"><br><br>
+            <label for="reg">Email-id :</label>
+            <input type="name" id="reg" name="reg" required><br><br>
+            <label for="name">Phn number</label>
+            <input type="text" id="name" name="name" ><br><br>
+            <label for="name">some question</label><br>
+            <input type="checkbox" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I have a bike</label><br>
+            <input type="checkbox" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I have a bike</label><br>
+            <input type="checkbox" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I have a bike</label><br>
+            <button type="button" >Register</button>
+        </form>
+        <div class="footer">
+        <p>Copy right 2020</p>
+        </div>
+    </body>
+    </html>

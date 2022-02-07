@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CSS Font Styles</title>
+        <style>
+            .p {
+            font-size: 150%;
+            color: green
+            }
+        </style>
+    </head>
+    <body>
+        <p>This is the default font size with default color</p>
+        <p class="p">This should be 1.5 time bigger than
+        default font and green!!</p>
+    </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+    <head>
+        <style>
+            table, tr {
+                border: 1px solid black;
+            }
+            .center {
+                margin-left:auto;
+                margin-right:auto;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Enter the marks subject wise</h1>
+        <table class="center">
+            <tr>
+                <b>Student Name : </b><input type="text" required id="name"><br>
+            </tr>
+            <br>
+            <tr>
+                <b>WT :</b><input type="number" id="s1" required>
+            </tr>
+            <br><br>
+            <tr><b>CD : </b><input type="number" id="s2" required></tr>
+            <br><br>
+            <tr><b>CN : </b><input type="number" id="s3" required></tr>
+            <br><br>
+            <tr><b>IP : </b><input type="number" id="s4" required></tr>
+            <br><br>
+            <tr><b>ML : </b><input type="number" id="s5" required></tr>
+            <br><br>
+            <tr><b>OOAD : </b><input type="number" id="s6" required></tr>
+            <br><br>
+            <tr><input type="submit" value="submit" onclick="markresult()"></tr>
+        </table>
+        <script>
+            function markresult() {
+                let n1=document.getElementById("name").value;
+                let c1=document.getElementById("s1").value;
+                let c2=document.getElementById("s2").value;
+                let c3=document.getElementById("s3").value;
+                let c4=document.getElementById("s4").value;
+                let c5=document.getElementById("s5").value;
+                let c6=document.getElementById("s6").value;
+                let list=[];
+                list.push(c1,c2,c3,c4,c5,c6);
+                document.write(`<h1>Order of marks of ${n1}
+                subject-wise before sorting <br>WT: ${c1} <br>CD:${c2}
+                <br>CN:${c3} <br>IP:${c4}
+                <br>ML:${c5} <br>OOAD:${c6}</h1>`);
+                list.sort(function (a, b) {
+                return b - a
+                });
+                document.write(`<h1>Descending order of marks of ${n1} is : ${list}</h1>`);
+            }
+        </script>
+    </body>
+</html>

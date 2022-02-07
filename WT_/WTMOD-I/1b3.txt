@@ -1,0 +1,60 @@
+CSS is the language we use to style a Web page.
+
+What is CSS?
+    CSS stands for Cascading Style Sheets
+    CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+    CSS saves a lot of work. It can control the layout of multiple web pages all at once
+
+EXAMPLE
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+        <style>
+        body {
+        background-color: lightblue;
+        }
+
+        h1 {
+        color: white;
+        text-align: center;
+        }
+
+        p {
+        font-family: verdana;
+        font-size: 20px;
+        }
+        </style>
+        </head>
+        <body>
+
+        <h1>My First CSS Example</h1>
+        <p>This is a paragraph.</p>
+
+        </body>
+        </html>
+
+Advantages of CSS
+    CSS saves time
+    Pages load faster 
+    Easy maintenance 
+    Superior styles to HTML 
+    Multiple Device Compatibility
+    Global web standards
+
+
+Types of CSS (Cascading Style Sheet)
+    Cascading Style Sheet(CSS) is used to set the style in web pages that contain HTML elements. 
+    It sets the background color, font-size, font-family, color, … etc property of elements on a web page. 
+
+    There are three types of CSS which are given below: 
+
+        Inline CSS
+        Internal or Embedded CSS
+        External CSS
+
+
+
+CSS Properties
+
+            https://www.w3schools.com/cssref/

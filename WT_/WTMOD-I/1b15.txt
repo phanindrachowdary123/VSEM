@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <title>IARE</title>
+    </head>
+    <body>
+        <h1 align="center" style="text-decoration-line: underline;
+        text-decoration-style: double;" >ENGINEERING COLLEGE</h1>
+        <ol>
+            <li>CSE department</li>
+            <ol type="A";>
+                <li>Professors</li>
+                <ol type="i";>
+                    <li>xyz</li>
+                    <li>mno</li>
+                </ol>
+                <li>Assistant professors</li>
+                <ul>
+                    <li>pqr</li>
+                    <li>fff</li>
+                </ul>
+            </ol>
+            <li>ECE department</li>
+            <ol type="i";>
+                <li>Associate professors</li>
+                <ol type="a";>
+                    <li>YYY</li>
+                </ol>
+                <li>Professors</li>
+                <ol type="A";>
+                    <li>Asst. professors</li>
+                    <ul>
+                        <li>mmm</li>
+                        <li>QQQ</li>
+                    </ul>
+                </ol>
+            </ol>
+            <li>Library</li>
+            <ol type="a";>
+                <li>ppp</li>
+                <li>nnn</li>
+            </ol>
+        </ol>
+    </body>
+</html>

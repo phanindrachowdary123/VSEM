@@ -1,0 +1,45 @@
+Function Definition
+Before we use a function, we need to define it. The most common way to define a function
+in JavaScript is by using the function keyword, followed by a unique function name, a list of
+parameters (that might be empty), and a statement block surrounded by curly braces.
+
+
+Syntax
+The basic syntax is shown here.
+<script type = "text/javascript">
+ function functionname(parameter-list) {
+statements
+}
+</script>
+
+
+Example 1:-
+<script type = "text/javascript">
+    function sayHello() {
+        alert("Hello there");
+    }
+</script>   
+ //-->
+</script>
+
+
+Example 2 :-
+
+<html>
+    <body>
+    <button onclick="myFunction()">Try it</button>
+    <p id="demo"></p>
+        <script>
+            function myFunction() {
+                var txt;
+                if (confirm("Press a button!")) {
+                    txt = "You pressed OK!";
+                }
+                else {
+                    txt = "You pressed Cancel!";
+                }
+                document.getElementById("demo").innerHTML = txt;
+            }
+        </script>
+    </body>
+</html>

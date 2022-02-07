@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <input id="myText">
+        <button onclick="evenodd()">check</button>
+        <script type="text/javascript">
+            function evenodd()
+            {
+                var a = document.getElementById("myText").value;
+                if (a%2==0)
+                {
+                    document.write("<h2>even</h2>");
+                }
+                else
+                {
+                    document.write("<h2>odd</h2>");
+                }
+            }
+        </script>
+    </body>
+</html>

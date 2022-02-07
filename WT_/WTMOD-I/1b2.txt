@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Document</title>
+</head>
+    <body>
+    <label for="name">Student Name</label>
+    <input type="text" id="name" name="name" required minlength="4" maxlength="20" size="15">
+    <label for="department">Department</label>
+    <input type="text" id="dept" name="department" required minlength="4" maxlength="20" size="15">
+    <label for="reg">Student Registration Number</label>
+    <input type="number" id="reg" name="reg" required>
+    <button type="button" onclick="getvalue();">Check Value</button>
+    <script>
+        function getvalue(){
+            var regval=document.getElementById("reg").value;
+            var nameval=document.getElementById("name").value;
+            var deptval=document.getElementById("dept").value;
+            if (Math.sign(regval)<0){
+                alert("Please enter a Positive Registration number");
+            }
+            else{
+                alert(`Successfull Data. Name is : ${nameval}
+                Deaprtment is: ${deptval} and Student Registration Number is:${regval}`);
+            }
+        }
+    </script>
+</body>
+</html>

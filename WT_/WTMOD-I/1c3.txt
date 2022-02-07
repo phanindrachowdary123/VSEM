@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+    <body>
+        <script type="text/javascript">
+            var x = 2 % 2 + 2 * 2 - 2 / 2;
+            document.writeln(x);
+            var X = (3 * 9 * (3 + (9 * 3 / (3))));
+            document.write(X);
+        </script>
+    </body>
+</html>
+
+
+<!-- Output
+    3 and 324 -->
