@@ -1,0 +1,18 @@
+a) The window object represents a window in browser. 
+    An object of window is created automatically by the browser.
+    Window is the object of browser, it is not the object of javascript. 
+    The javascript objects are string, array, date etc.
+
+    alert()	displays the alert box containing message with ok button.
+    confirm()	displays the confirm dialog box containing message with ok and cancel button.
+    prompt()	displays a dialog box to get input from the user.
+    open()	opens the new window.
+    close()	closes the current window.
+    setTimeout()	performs action after specified time like calling function, evaluating expressions etc.
+
+b)  <script type="text/javascript">  
+        function msg(){  
+        open("https://www.javatpoint.com/window-object");  
+        }  
+    </script>  
+    <input type="button" value="javatpoint" onclick="msg()"/>

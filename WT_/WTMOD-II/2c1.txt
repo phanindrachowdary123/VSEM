@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <body style="text-align:center;">
+        <div id="test">
+            The following element contains some
+            <codes>code</codes> and
+            <italic>some text</italic>.
+        </div>
+        <br>
+        <br>
+        <button onClick="innerTextFn()">innerHTML</button>
+        <button onClick="innerHTMLFn()">innerText</button>
+        <script>
+            function innerTextFn() {
+                var x = document.getElementById('test');
+                alert(x.innerText);
+            }
+
+            function innerHTMLFn() {
+                var x = document.getElementById('test');
+                alert(x.innerHTML);
+            }
+        </script>
+    </body>
+
+</html>

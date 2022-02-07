@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+        function is_perfect(number)
+        {
+            var temp = 0;
+            for(var i=1;i<=number/2;i++)
+                {
+                    if(number%i === 0)
+                    {
+                        temp += i;
+                    }
+                }
+            
+                if(temp === number && temp !== 0)
+                    {
+                        return 1;
+                    }  
+        }
+        var k=parseInt(prompt("Enter the number: "));
+        var a=[]
+        while(k>=0){
+            if(is_perfect(k)==1){
+                a.push(k);
+            }
+            
+            k=k-1;
+        }
+        document.writeln(a);
+        var len=a.length;
+        document.writeln(len);
+        var body = document.getElementsByTagName("body")[0];
+        var tbl = document.createElement("table");
+        var tblBody = document.createElement("tbody");
+        tbl.appendChild(tblBody);
+        for (var i = 0; i < len; i++) {
+            var row = document.createElement("tr");
+            tblBody.appendChild(row);
+            for (var j = 0; j <len; j++) {
+                var cell = document.createElement("td");
+                cell.width='25';
+                len=len-1;
+                cell.appendChild(document.createTextNode(a[i+j]));
+                row.appendChild(cell);
+                document.writeln(len);
+            }
+        }
+        body.appendChild(tbl);
+        tbl.setAttribute("border", "1");
+    </script>
+  
+</body>
+</html>

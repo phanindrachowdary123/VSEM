@@ -1,0 +1,14 @@
+<html>  
+     <body>  
+          <button>Click Me</button>
+          <script>  
+            var color=["#9AD0EC","#655D8A","#6867AC","#612897","#219F94","#11468F"];
+            var i=0;
+            document.querySelector("button").addEventListener("click",
+            function(){
+                i=i<color.length ? ++i : 0;
+                document.querySelector("body").style.background=color[i];
+            })
+      </script> 
+     </body>   
+</html>
