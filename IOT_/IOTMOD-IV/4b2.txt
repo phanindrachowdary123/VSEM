@@ -1,0 +1,49 @@
+2. What is Raspberry Pi? Explain Raspberry Pi board with various components?
+Ans: The Raspberry Pi is a low cost, credit-card sized computer that plugs into a computer
+monitor or TV, and uses a standard keyboard and mouse. It is a capable little device that
+enables people of all ages to explore computing, and to learn how to program in languages
+like Scratch and Python. It’s capable of doing everything you’d expect a desktop computer to
+do, from browsing the internet and playing high-definition video, to making spreadsheets,
+word-processing, and playing games.
+
+Here are the various components on the Raspberry Pi board:
+
+●  ARM CPU/GPU -- This is a Broadcom BCM2835 System on a Chip (SoC) that's
+    made up of an ARM central processing unit (CPU) and a Videocore 4 graphics
+    processing unit (GPU). The CPU handles all the computations that make a computer
+    work (taking input, doing calculations and producing output), and the GPU handles
+    graphics output.
+
+● GPIO -- These are exposed general-purpose input/output connection points that will
+    allow the real hardware hobbyists the opportunity to tinker.
+
+● RCA -- An RCA jack allows connection of analog TVs and other similar output
+    devices.
+
+● Audio out -- This is a standard 3.55-millimeter jack for connection of audio output
+    devices such as headphones or speakers. There is no audio in.
+
+● LEDs -- Light-emitting diodes, for all of your indicator light needs.
+
+● USB -- This is a common connection port for peripheral devices of all types
+    (including your mouse and keyboard). Model A has one, and Model B has two. You
+    can use a USB hub to expand the number of ports or plug your mouse into your
+    keyboard if it has its own USB port.
+
+● HDMI -- This connector allows you to hook up a high-definition television or other
+    compatible device using an HDMI cable.
+
+● Power -- This is a 5v Micro USB power connector into which you can plug your
+    compatible power supply.
+
+● SD cardslot -- This is a full-sized SD card slot. An SD card with an operating system
+    (OS) installed is required for booting the device. They are available for purchase from
+    the manufacturers, but you can also download an OS and save it to the card yourself if
+    you have a Linux machine and the wherewithal.
+    
+● Ethernet -- This connector allows for wired network access and is only available on
+        the Model B.
+
+Many of the features that are missing, such as WiFi and audio in, can be added using the USB
+port(s) or a USB hub as needed. Next: More details on the device itself and its compatible
+operating systems.
