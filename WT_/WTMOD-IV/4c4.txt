@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <?php
+            mysql_connect("WWW.EXAMPLE.COM", "USERNAME", "PASSWORD") or die("Connection Failed");
+            mysql_select_db("YOUR DATABASE NAME")or die("Connection Failed");
+            $name = mysql_real_escape_string($_POST['name']);
+            $query = "select * from YOURTABLENAME where REGISTERNUMBER = '$name'";
+            $result = mysql_query($query);
+            while ($line = mysql_fetch_array($result, MYSQL_ASSOC))
+            {
+                echo "$line['name']"."<br />";
+                echo "$line['subject1']"."</div></td>"."<br />";
+                echo "$line['subject2']"."</div></td>"."<br />";
+                echo "$line['subject3']"."</div></td>"."<br />";
+                echo "$line['subject4']"."</div></td>"."<br />";
+            }
+        ?>
+    </body>
+</html>

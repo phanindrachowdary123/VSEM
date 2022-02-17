@@ -1,0 +1,61 @@
+What is GET Method?
+
+
+    <!DOCTYPE html>
+    <html>
+        <body>
+            <form action="getmethod.php" method="GET">
+                Username: <input type="text"
+                    name="username" /> <br>
+                City: <input type="text"
+                    name="city" /> <br>                   
+                <input type="submit" />
+            </form>
+        </body>
+    </html>
+
+    getmethod.php
+
+    <!DOCTYPE html>
+    <html>
+        <body>
+            Welcome
+            <?php echo $_GET["username"]; ?>
+                </br>
+                Your City is:
+            <?php echo $_GET["city"]; ?>
+        </body>
+    </html>
+
+
+What is POST Method?
+
+    <!DOCTYPE html>
+    <html>
+
+        <body>
+            <form action="postmethod.php" method="post">
+                Username: <input type="text"
+                    name="username" /> <br>
+
+                Area of Study: <input
+                    type="text" name="area" /> <br>
+
+                <input type="submit" />
+            </form>
+        </body>
+
+    </html>
+
+    postmethod.php
+
+    <!DOCTYPE html>
+    <html>
+        <body>
+            Welcome
+            <?php echo $_POST["username"]; ?>
+                </br>
+                YOur Area of Study is:
+            <?php echo $_POST["area"]; ?>
+        </body>
+    </html>
